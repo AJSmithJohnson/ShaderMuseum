@@ -33,11 +33,11 @@
 
 		float4 tessFixed()//Our tessFixed method for tessellation
 		{
-
+			return _Tess;
 		}//End of our tessFixed method
 		void displacement(inout appdata v)//Our displacement method for vertex manipulation
 		{
-
+			
 		}//End of our displacement method
 
 		//a method named "surf" that is using the "Standard" PBR lighting model
