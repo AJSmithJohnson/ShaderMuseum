@@ -5,9 +5,10 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: TessellationWavesMat
-  m_Shader: {fileID: 4800000, guid: 26fce319fe6fd19428e6ea4aa3c443f3, type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ClipShaderMat
+  m_Shader: {fileID: 4800000, guid: ae536d6431921a946a4d79b8af3da804, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +20,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CubeMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -38,16 +35,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DispTex:
-        m_Texture: {fileID: 2800000, guid: 191eb3ea2d04db04eae7dd2ccec8c52b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 191eb3ea2d04db04eae7dd2ccec8c52b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -62,11 +55,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _foreGroundMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DisplacementAmount: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -78,14 +74,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Tess: 0
     - _UVSec: 0
-    - _WaveHeight: 0.75
-    - _WaveLength: 11.8
-    - _WaveSpeed: 0.93
     - _ZWrite: 1
+    - _backGroundCutoff: 0.236
+    - _cutoff: 0
+    - _foreGroundCutoff: 0.492
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 0.509968, g: 0.5660378, b: 0.5646147, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.9528302, g: 0.15730685, b: 0.15730685, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _backGroundColor: {r: 1, g: 1, b: 1, a: 1}
+    - _foreGroundColor: {r: 1, g: 1, b: 1, a: 1}
