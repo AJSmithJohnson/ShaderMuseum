@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ClipShaderMat
+  m_Name: BasicClipMat
   m_Shader: {fileID: 4800000, guid: ac5429e1178cab242bc745b4e2e591df, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
