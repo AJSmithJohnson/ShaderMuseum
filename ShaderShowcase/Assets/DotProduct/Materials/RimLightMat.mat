@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material 2
+  m_Name: RimLightMat
   m_Shader: {fileID: 4800000, guid: a861a1f8cea61bf4e9c7edac090ce770, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

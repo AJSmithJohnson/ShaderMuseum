@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: DotProductMat
   m_Shader: {fileID: 4800000, guid: 8bb366ab1da4bb747af0bef0299a5d2f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
