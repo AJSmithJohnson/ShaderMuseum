@@ -1,4 +1,4 @@
-﻿Shader "MyClipShaders/FourthClip"
+﻿Shader "ClipShaders/ForAndBackgroundClip"
 {
 	Properties
 	{

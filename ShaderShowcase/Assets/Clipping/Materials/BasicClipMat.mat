@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ClipShaderMat
-  m_Shader: {fileID: 4800000, guid: ae536d6431921a946a4d79b8af3da804, type: 3}
+  m_Shader: {fileID: 4800000, guid: ac5429e1178cab242bc745b4e2e591df, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -77,7 +77,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _backGroundCutoff: 0.236
-    - _cutoff: 0
+    - _cutoff: 0.379
     - _foreGroundCutoff: 0.492
     m_Colors:
     - _Color: {r: 0.9528302, g: 0.15730685, b: 0.15730685, a: 1}

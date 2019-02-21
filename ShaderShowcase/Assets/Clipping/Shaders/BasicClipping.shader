@@ -1,4 +1,4 @@
-﻿Shader "MyClipShaders/ClipShader"
+﻿Shader "ClipShaders/BasicClipping"
 {
 	Properties
 	{
